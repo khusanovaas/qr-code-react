@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    text-align: center;
+    text-decoration: none;
+}
+
+.li1{
+    text-decoration: line-through;
+}
+.li1:hover{
+    text-decoration: none;
+}
+
+.li2{
+    font-weight: 700;
+}
+.li2:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.li3{
+    font-style: italic;
+}
+.li3:hover{
+    font-style: normal;
+    
+}
+.li4{
+    text-transform: uppercase; 
+}
+.li4:hover{
+    text-transform: lowercase;
+}
+
+.textinput:focus{
+    box-shadow: 0 0 10px rgba(0,0,0,8);
+}
+
+.textbutton{
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    outline: none;
+    background-color:greenyellow;
+
+
+}
+.textbutton:hover{
+    background-color:yellow;
+}
+.textbutton:active{
+    background-color:gold;
+}
